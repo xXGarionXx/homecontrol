@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="refresh" content="10">
+	<title>Startseite</title>
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/coding.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Chewy&display=swap" rel="stylesheet">
+
+	<script src="../lib/jquery-3.6.0.min.js"></script>
+	
+	<script src="../js/abfrage.js"></script>
+	<script src="../js/led_control.js"></script>
+
+</head>
+
+<body>
+	<div>
+		<header>
+			<h1>Coding</h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="../index.html">Start</a></li>
+				<li><a href="weather.html">Weather</a></li>
+				<li><a href="led_control.html">Led-Control</a></li>
+				<li><a href="calendar.html">Calender</a></li>
+			</ul>
+		</nav>
+		
+		<main>
+			<h2>Led-Control</h2>
+			<section class="weatherbox">
+
+
+				<div class="clickbuttondiv">
+					<input type="checkbox" name="button1" class="clickbutton" id="button1">
+					<label for="button1" class="switch">Regenbogen LED</label>
+				</div>
+				
+
+				<p id="ausgabe"></p>
+			</section>
+			
+		</main>
+		
+		<footer>
+			<p>Impressum</p>
+		</footer>
+	</div>
+
+</body>
+</html>
